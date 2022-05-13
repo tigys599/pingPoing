@@ -1,0 +1,261 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ********************************************************************************************************************************************* */
+body {
+    transition: 2s;
+}
+
+section {
+    display: flex;
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section img {
+    display: block;
+    max-width: 700px;
+    max-width: 700px;
+    margin: 20px;
+}
+
+section div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+
+button {
+    font-size: 1.3em;
+    padding: .5em 3em;
+    margin: 0em 1em;
+}
+
+section:last-child {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0.5em;
+}
+
+#howmany {
+    justify-content: flex-start;
+    font-size: 1.2em;
+    width: 10%;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 8rem;
+    font-weight: 700;
+}
+
+.p1btn {
+    background-color: rgb(82, 82, 245);
+    border-radius: 10px;
+}
+
+.p2btn {
+    background-color: rgb(247, 43, 43);
+    border-radius: 10px;
+}
+
+#rst {
+    background-color: rgb(25, 119, 25);
+    border-radius: 10px;
+}
+
+.btngray {
+    background-color: rgb(134, 134, 156);
+    border-radius: 10px;
+}
+
+.gradient1 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.gradient2 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(30, 121, 9, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.gradient3 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 54, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.gradient4 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 69, 9, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.gradient5 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 18%, rgba(121, 69, 9, 1) 49%, rgba(60, 161, 100, 1) 82%, rgba(0, 212, 255, 1) 100%);
+}
+
+.gradient6 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 18%, rgba(121, 69, 9, 1) 49%, rgba(60, 75, 161, 1) 82%, rgba(0, 212, 255, 1) 100%);
+}
+
+.gradient7 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 18%, rgba(121, 69, 9, 1) 49%, rgba(148, 60, 161, 1) 82%, rgba(0, 212, 255, 1) 100%);
+}
+
+.gradient8 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 18%, rgba(121, 69, 9, 1) 49%, rgba(60, 136, 161, 1) 82%, rgba(0, 212, 255, 1) 100%);
+}
+
+.gradient9 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 18%, rgba(121, 69, 9, 1) 49%, rgba(68, 60, 161, 1) 82%, rgba(0, 212, 255, 1) 100%);
+}
+
+.gradient10 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 18%, rgba(121, 69, 9, 1) 49%, rgba(161, 83, 60, 1) 82%, rgba(0, 212, 255, 1) 100%);
+}
