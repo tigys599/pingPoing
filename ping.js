@@ -57,20 +57,20 @@ const delayedColorChange = (color, delay) => {
     })
 }
 
-function delayColor() {
-    delayedColorChange('red', 1000)
-        .then(() => delayedColorChange('gradient1', 2000))
-        .then(() => delayedColorChange('gradient2', 2000))
-        .then(() => delayedColorChange('gradient3', 2000))
-        .then(() => delayedColorChange('gradient4', 2000))
-        .then(() => delayedColorChange('gradient5', 2000))
-        .then(() => delayedColorChange('gradient6', 2000))
-        .then(() => delayedColorChange('gradient7', 2000))
-        .then(() => delayedColorChange('gradient8', 2000))
-        .then(() => delayedColorChange('gradient9', 2000))
-        .then(() => delayedColorChange('gradient10', 2000))
-}
-delayColor()
+// function delayColor() {
+//     delayedColorChange('red', 1000)
+//         .then(() => delayedColorChange('gradient1', 2000))
+//         .then(() => delayedColorChange('gradient2', 2000))
+//         .then(() => delayedColorChange('gradient3', 2000))
+//         .then(() => delayedColorChange('gradient4', 2000))
+//         .then(() => delayedColorChange('gradient5', 2000))
+//         .then(() => delayedColorChange('gradient6', 2000))
+//         .then(() => delayedColorChange('gradient7', 2000))
+//         .then(() => delayedColorChange('gradient8', 2000))
+//         .then(() => delayedColorChange('gradient9', 2000))
+//         .then(() => delayedColorChange('gradient10', 2000))
+// }
+// delayColor()
 
 
 
